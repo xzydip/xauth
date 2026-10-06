@@ -5,7 +5,7 @@ git clone https://github.com/xzydip/xauth.git
 
 cd xauth
 
-unzip xzyauth.zip
+unzip xauth.zip
 
 nohup python3 server.py > xauth.log 2>&1 &
 

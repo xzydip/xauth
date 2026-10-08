@@ -7,11 +7,18 @@ cd xauth
 
 unzip xauth.zip
 
-nohup python3 server.py > xauth.log 2>&1 &
+cd XzyAuth
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+python3 server.py
 
 
 
-For check ss -lntp | grep 3000
 
 
 

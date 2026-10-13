@@ -1,0 +1,9 @@
+x_auth.db
+__pycache__
+*.pyc
+Dockerfile
+Procfile
+render.yaml
+.dockerignore
+XzyAuth_Package/
+DiscordBot_Package/

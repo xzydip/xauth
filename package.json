@@ -1,0 +1,12 @@
+{
+  "name": "x-auth",
+  "version": "1.0.0",
+  "description": "XZY AUTH - API Key + License Control Platform",
+  "main": "index.html",
+  "scripts": {
+    "start": "python server.py",
+    "demo": "python -m http.server 3000"
+  },
+  "keywords": ["api", "key", "auth", "license", "x"],
+  "author": "XZY"
+}
